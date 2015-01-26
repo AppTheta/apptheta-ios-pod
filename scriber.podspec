@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.summary = 'Metrics for subscription and IAP apps.'
   s.author = { 'scriber' => 'help@scriber.io' }
-  s.homepage = 'https://scriber.io'
+  s.homepage = 'http://scriber.io'
   s.license = { :file => 'LICENSE', :type => 'Commercial' }
   s.source = {
     :git => 'https://github.com/scriber/scriber-ios-pod.git',
