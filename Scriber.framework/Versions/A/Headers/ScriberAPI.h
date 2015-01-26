@@ -3,7 +3,7 @@
 //  Scriber
 //
 //  Created by Andrew Johnson on 12/6/14.
-//  Copyright (c) 2014 Andrew Johnson. All rights reserved.
+//  Copyright (c) 2014 Scriber. All rights reserved.
 //
 
 extern NSString * const SCRIBER_ID_KEYCHAIN_SERVICE_NAME;
@@ -16,10 +16,7 @@ extern NSString * const SCRIBER_SDK_VERSION_NUMBER;
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
-@interface ScriberAPI : NSObject {
-  
-}
+@interface ScriberAPI : NSObject { }
 
 // Set the API key you get when you sign up at Scriber.io. Call this method before you do anything else.
 // Log in a user and start tracking. Call this method in applicationDidFinishLaunching.
@@ -44,7 +41,6 @@ extern NSString * const SCRIBER_SDK_VERSION_NUMBER;
 
 // wraps vendorID, only a private API?
 + (NSString*) appInstallID;
-
 
 @end
 
