@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author = { 'scriber' => 'help@scriber.io' }
   s.homepage = 'http://scriber.io'
   s.license = { :file => 'LICENSE', :type => 'Commercial' }
+  source_files = 'Scriber/Headers/*.h',
   s.source = {
     :git => 'https://github.com/scriber/scriber-ios-pod.git',
     :tag => s.version.to_s
