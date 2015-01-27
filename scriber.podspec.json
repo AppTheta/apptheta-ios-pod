@@ -1,0 +1,23 @@
+
+{
+  "name": "scriber",
+  "version": "0.1.0",
+  "license": {
+    "type": "Commercial",
+    "text": "See http://www.scriber.io/terms_of_services/"
+  },
+  "summary": "Metrics for subscription and IAP apps.",
+  "homepage": "http://www.scriber.io",
+  "authors": {
+    "scriber": "help@scriber.io"
+  },
+  "source": {
+    "git": "https://github.com/scriber/scriber-ios-pod.git",
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source_files": "Scriber.framework/Headers/*.h",
+  "frameworks": "Security",
+  "requires_arc": true
+}
