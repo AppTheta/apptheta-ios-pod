@@ -19,7 +19,7 @@
   "platforms": {
     "ios": null
   },
-  "source_files": "Headers/*.h",
+  "source_files": "Scriber.framework/Headers/*.h",
   "frameworks": "Security",
   "requires_arc": true
 }
