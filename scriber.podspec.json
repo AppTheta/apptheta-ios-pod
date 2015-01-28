@@ -19,7 +19,7 @@
   },
   "ios": {
     "public_header_files": [
-      "Scriber.framework/Headers/*.h",
+      "Scriber.framework/Headers/*.h"
     ],
     "vendored_frameworks": "Scriber.framework"
   },
