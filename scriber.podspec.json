@@ -21,7 +21,7 @@
     "public_header_files": [
       "Scriber.framework/Headers/*.h"
     ],
-    "vendored_frameworks": "Scriber.framework"
+    "vendored_frameworks": "Frameworks/Scriber.framework"
   },
   "frameworks": "Security",
   "requires_arc": true
