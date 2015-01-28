@@ -1,7 +1,7 @@
 
 {
   "name": "scriber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": {
     "type": "Commercial",
     "text": "See http://www.scriber.io/terms_of_services/"
@@ -13,13 +13,18 @@
   },
   "source": {
     "git": "https://github.com/scriber/scriber-ios-pod.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
 
   },
   "platforms": {
     "ios": null
   },
-  "source_files": "Scriber.framework/Headers/*.h",
+  "ios": {
+    "public_header_files": [
+      "Scriber.framework/Headers/*.h",
+    ],
+    "vendored_frameworks": "Scriber.framework"
+  },
   "frameworks": "Security",
   "requires_arc": true
 }
