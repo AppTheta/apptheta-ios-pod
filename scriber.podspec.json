@@ -12,14 +12,13 @@
     "scriber": "help@scriber.io"
   },
   "source": {
-    "git": "https://github.com/scriber/scriber-ios-pod.git",
-    "tag": "1.0.0"
-  },
+    "git": "https://github.com/scriber/scriber-ios-pod.git"
+    },
   "platforms": {
     "ios": "6.0"
   },
   "source_files": "Scriber.framework/Headers/*.h",
-  "preserve_paths":"Scriber.framework/**",
+  "preserve_paths":"Scriber.framework/",
   "frameworks": "Security",
   "requires_arc": true,
   "libraries":"Scriber"
