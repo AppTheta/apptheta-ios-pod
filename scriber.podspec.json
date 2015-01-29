@@ -24,5 +24,6 @@
   "libraries":"Scriber",
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/scriber/Scriber.framework/Versions/A\""
-  }
+  },
+  "prepare_command": "ln -s `pwd`/Scriber.framework/Versions/A/Scriber `pwd`/Scriber.framework/Versions/A/Scriber.a"
 }
