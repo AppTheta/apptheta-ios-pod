@@ -23,6 +23,6 @@
   "requires_arc": true,
   "libraries":"Scriber",
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber.framework/Versions/A\""
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/scriber/Scriber.framework/Versions/A\""
   }
 }
