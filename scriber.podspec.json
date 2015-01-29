@@ -21,5 +21,8 @@
   "preserve_paths":"Scriber.framework/**",
   "frameworks": "Security",
   "requires_arc": true,
-  "libraries":"Scriber"
+  "libraries":"Scriber",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber.framework/Scriber/Versions/A\""
+  }
 }
