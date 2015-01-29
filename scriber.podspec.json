@@ -18,7 +18,7 @@
     "ios": "6.0"
   },
   "source_files": "Scriber.framework/Headers/*.h",
-  "preserve_paths":"Scriber.framework/Scriber",
+  "preserve_paths":"Scriber/Scriber",
   "frameworks": "Security",
   "requires_arc": true,
   "libraries":"Scriber"
