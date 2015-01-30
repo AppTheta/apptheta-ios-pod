@@ -17,12 +17,13 @@
   "platforms": {
     "ios": "6.0"
   },
-  "source_files": "Scriber.framework/Headers/*.{h}",
+  "source_files": "Scriber.framework/Versions/A/Headers/*.{h}",
   "preserve_paths":"Scriber.framework/**",
   "frameworks": "Security",
-  "libraries": "Scriber",
   "requires_arc": true,
+  "libraries":"Scriber",
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber.framework/\""
-  }
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber.framework\""
+  },
+  "prepare_command" : "ln -s `pwd`/Scriber.framework/Scriber `pwd`/Scriber.framework/libScriber.a"
 }
