@@ -1,7 +1,7 @@
 
 {
-  "name": "scriber",
-  "version": "2.1.0",
+  "name": "Scriber",
+  "version": "1.0.0",
   "license": {
     "type": "Commercial",
     "text": "See http://www.scriber.io/terms-of-use/"
@@ -12,18 +12,17 @@
     "scriber": "help@scriber.io"
   },
   "source": {
-    "git": "https://github.com/scriber/scriber-ios-pod.git"
+    "http": "http://static.gaiagps.com/Scriber.zip"
     },
   "platforms": {
     "ios": "6.0"
   },
-  "source_files": "Scriber.framework/Headers/*.h",
-  "preserve_paths":"Scriber.framework/**",
+  "source_files": "Scriber/Headers/*.{h}",
+  "preserve_paths":"Scriber/**",
   "frameworks": "Security",
   "requires_arc": true,
   "libraries":"Scriber",
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/scriber/Scriber.framework/Versions/A\""
-  },
-  "prepare_command": "ln -s `pwd`/Scriber.framework/Versions/A/Scriber `pwd`/Scriber.framework/Versions/A/Scriber.a"
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber/\""
+  }
 }

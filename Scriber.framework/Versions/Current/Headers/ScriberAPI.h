@@ -24,7 +24,7 @@ extern NSString * const SCRIBER_SDK_VERSION_NUMBER;
 +(void) loginUserForAPIKey:(NSString*)key;
 
 // when a user buys a subscription or IAP, send the receipt to Scriber
-+(void) recordPurchase:(NSDictionary*)purchaseInfo;
++(void) recordPurchase;
 
 // optionally identify the user for metrics and contact
 +(void) setEmail:(NSString*)email;
