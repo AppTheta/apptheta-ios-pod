@@ -12,17 +12,17 @@
     "scriber": "help@scriber.io"
   },
   "source": {
-    "http": "http://static.gaiagps.com/Scriber.zip"
+    "http": "https://github.com/Scriber/scriber-ios-pod/releases/download/1.0.0/Scriber.framework.zip"
     },
   "platforms": {
     "ios": "6.0"
   },
-  "source_files": "Scriber/Headers/*.{h}",
-  "preserve_paths":"Scriber/**",
+  "source_files": "Scriber.framework/Headers/*.{h}",
+  "preserve_paths":"Scriber.framework/**",
   "frameworks": "Security",
   "libraries": "Scriber",
   "requires_arc": true,
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber/\""
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber.framework/\""
   }
 }
