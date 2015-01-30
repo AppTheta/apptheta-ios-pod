@@ -54,6 +54,12 @@
 +(void) logout;
 
 
+/** <#check if the user has been logged in with Scriber#>
+@return <#YES if the user is logged in, NO if not#>
+ */
++(BOOL) loggedIn;
+
+
 /** <#record a custom event with just a label#>
  
  @param <#label#> <#the label as you want to see it on scriber.io, nil values are ignored#>
