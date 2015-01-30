@@ -20,6 +20,7 @@
   "source_files": "Scriber/Headers/*.{h}",
   "preserve_paths":"Scriber/**",
   "frameworks": "Security",
+  "libraries": "Scriber",
   "requires_arc": true,
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Scriber/Scriber/\""
