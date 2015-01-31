@@ -54,10 +54,9 @@
 +(void) logout;
 
 
-/** <#check if the user has been logged in with Scriber#>
-@return <#YES if the user is logged in, NO if not#>
+/** <#the user's email if one has been set in Scriber#>
  */
-+(BOOL) loggedIn;
++ (NSString*) email;
 
 
 /** <#record a custom event with just a label#>
