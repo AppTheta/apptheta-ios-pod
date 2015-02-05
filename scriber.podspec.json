@@ -19,7 +19,7 @@
   },
   "source_files": "Scriber.framework/Versions/A/Headers/*.{h}",
   "preserve_paths":"Scriber.framework/**",
-  "frameworks": "Security",
+  "frameworks": ["Security", "StoreKit"],
   "requires_arc": true,
   "libraries":"Scriber",
   "xcconfig": {
