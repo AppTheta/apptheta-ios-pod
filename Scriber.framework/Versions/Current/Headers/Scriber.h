@@ -10,22 +10,18 @@
 #define Scriber_Scriber_h
 
 #import <Foundation/Foundation.h>
+#import <StoreKit/StoreKit.h>
 #import <UIKit/UIKit.h>
 
 
 /** <#The Scriber API tracks subscriptions, in-app purchases, and usage.#> */
-@interface Scriber : NSObject { }
+@interface Scriber : NSObject <SKPaymentTransactionObserver> { }
 
 
 /** <#Set the API key you get when you sign up at Scriber.io. Call this method before you do anything else. Log in a user and start tracking. Call this method in applicationDidFinishLaunching.#>
  @param <#key#> <#your Scriber API key, find at scriber.io/#>
  */
 +(void) loginUserForAPIKey:(NSString*)key;
-
-
-/** <#when a user buys a subscription or IAP, send the receipt to Scriber#>
- */
-+(void) recordPurchase;
 
 
 /** <#optional, for user-level metrics and contact#>
