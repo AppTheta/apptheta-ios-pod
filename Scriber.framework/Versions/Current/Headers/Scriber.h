@@ -59,7 +59,15 @@
  
  @param <#label#> <#the label as you want to see it on scriber.io, nil values are ignored#>
  */
-+(void) recordEvent:(NSString*)label;
++(void) recordLabel:(NSString*)label;
+
+
+/** <#record a custom event with a dictionary#>
+ 
+ @param <#info#> <#the info dictionary can include a label key and other keys too, see http://scriber.io/docs/#/iOS#>
+ */
++(void) recordInfo:(NSDictionary*)info;
+
 
 @end
 
