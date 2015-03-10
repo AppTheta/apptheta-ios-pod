@@ -69,6 +69,13 @@
 +(void) recordInfo:(NSDictionary*)info;
 
 
+/** <#disableNetworking prevents event data from being sent to Scriber, and Scriber just logs events locally to send later#>
+ 
+ @param <#disabled#> <#set disabled to true to prevent data transmission#>
+*/
++(void) disableNetworking:(BOOL)disabled;
+
+
 @end
 
 #endif
