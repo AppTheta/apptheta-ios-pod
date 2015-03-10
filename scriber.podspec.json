@@ -1,7 +1,7 @@
 
 {
   "name": "scriber",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "license": {
     "type": "Commercial",
     "text": "See http://www.scriber.io/terms-of-use/"
@@ -12,7 +12,7 @@
     "scriber": "help@scriber.io"
   },
   "source": {
-    "http": "http://github.com/Scriber/scriber-ios-pod/releases/download/1.0.8/Scriber.framework.zip"
+    "http": "http://github.com/Scriber/scriber-ios-pod/releases/download/1.1.0/Scriber.framework.zip"
     },
   "platforms": {
     "ios": "6.0"
