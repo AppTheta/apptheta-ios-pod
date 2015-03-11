@@ -59,14 +59,15 @@
  
  @param <#label#> <#the label as you want to see it on scriber.io, nil values are ignored#>
  */
-+(void) recordLabel:(NSString*)label;
++(void) recordEvent:(NSString*)label;
 
 
-/** <#record a custom event with a dictionary#>
+/** <#record a custom event with a label and properties#>
  
- @param <#info#> <#the info dictionary can include a label key and other keys too, see http://scriber.io/docs/#/iOS#>
+ @param <#label#> <#the label as you want to see it on scriber.io, nil values are ignored#>
+ @param <#properties#> <#properties can include primitive types, see http://scriber.io/docs/#/?tab=iOS#>
  */
-+(void) recordInfo:(NSDictionary*)info;
++(void) recordEvent:(NSString*)label withProperties:(NSDictionary*)properties;
 
 
 /** <#disableNetworking prevents event data from being sent to Scriber, and Scriber just logs events locally to send later#>
