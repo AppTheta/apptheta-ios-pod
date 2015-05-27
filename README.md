@@ -1,2 +1,2 @@
-# scriber-ios-pod
-Cocoapod for Scriber SDK.
+# apptheta-ios-pod
+Cocoapod for App Theta SDK.
