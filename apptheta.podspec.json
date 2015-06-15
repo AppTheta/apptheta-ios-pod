@@ -1,7 +1,7 @@
 
 {
   "name": "apptheta",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": {
     "type": "Commercial",
     "text": "See http://www.apptheta.com/terms-of-use/"
@@ -12,7 +12,7 @@
     "scriber": "help@apptheta.com"
   },
   "source": {
-    "http": "http://github.com/AppTheta/apptheta-ios-pod/releases/download/1.1.2/AppTheta.framework.zip"
+    "http": "http://github.com/AppTheta/apptheta-ios-pod/releases/download/1.1.3/AppTheta.framework.zip"
     },
   "platforms": {
     "ios": "6.0"
